@@ -1,26 +1,105 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 30px;
+    margin: 20px;
+    background-color: #f5f5f5;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header img {
+    display: block;
+    margin: 0 auto 10px;
 }
 
 h1 {
-    text-align: center;
+    color: #333;
 }
 
-#add-expense {
-    background-color: lightblue;
+h2 {
+    color: #444;
+}
+
+/* Form */
+.add-expense-section {
+    background-color: white;
     padding: 20px;
-    margin-top: 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
 }
 
-.expenses {
-    background-color: lightgray;
-    padding: 20px;
-    margin-top: 20px;
-}
-
-input {
+.add-expense-section label {
     display: block;
-    margin-bottom: 15px;
-    padding: 8px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.add-expense-section input,
+.add-expense-section select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+/* Advanced selector: focus */
+input:focus,
+select:focus {
+    outline: 2px solid #555;
+}
+
+/* Button */
+button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Table */
+.expenses-section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.expenses-section table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.expenses-section th,
+.expenses-section td {
+    border: 1px solid #999;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Colored header */
+.expenses-section th {
+    background-color: #333;
+    color: white;
+}
+
+/* Alternating rows */
+.expenses-section tr:nth-child(even) {
+    background-color: #eeeeee;
+}
+
+/* Hover */
+.expenses-section tbody tr:hover {
+    background-color: #d9f0ff;
+}
+
+/* Details */
+details {
+    background-color: white;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+summary {
+    cursor: pointer;
+    font-weight: bold;
 }
