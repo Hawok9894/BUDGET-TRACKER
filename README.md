@@ -1,45 +1,57 @@
-# My Budget Tracker
+# Budget Tracker
 
 ## About the Project
 
-My Budget Tracker is a simple web page that helps users record and view their expenses.
+This Budget Tracker is a simple web application designed to help users organize and track their expenses. This project was improved using CSS to create a clean, professional, and user-friendly visual design.
 
 ## What I Built
 
+I improved the existing Budget Tracker by adding:
+
+* A consistent color palette
+* Custom Google Fonts
+* Styled headings and text
+* A polished Add Expense form
+* A clearly styled expense table
+* Alternating table row colors
+* Consistent buttons and form inputs
+* Padding, margins, borders, and rounded corners
+* Card-style sections for better organization
+
+## Project Files
+
 ### index.html
 
-The HTML file contains:
-
-* Budget Tracker heading and logo
-* Add Expense form
-* Category dropdown
-* Expense table with sample data
-* Budgeting tips video
-* How to use section
+Contains the structure and content of the Budget Tracker, including the page heading, Add Expense form, and expense table.
 
 ### style.css
 
-The CSS file contains:
+Contains all the visual styling for the Budget Tracker, including colors, typography, form styling, table styling, buttons, spacing, borders, and the CSS Box Model.
 
-* Table borders and spacing
-* Colored table header
-* Alternating table rows
-* Hover effects
+### README.md
+
+Explains the project, its features, and the purpose of each project file.
+
+## Design
+
+The project uses a green and white color palette to create a clean and professional appearance. Poppins is used for the main body text, while Playfair Display is used for headings to create visual hierarchy.
+
+## CSS Features
+
+The CSS demonstrates:
+
+* Color palette
+* Google Fonts
+* Typography
 * Form styling
-* Input focus effects
-* Button styling
-* Advanced CSS selectors
+* Table styling
+* Alternating row colors
+* Padding and margins
+* Borders
+* Border radius
+* Box shadows
+* Button hover effects
 
-## Technologies Used
+## Conclusion
 
-* HTML
-* CSS
-
-## Features
-
-* Expense table
-* Expense form
-* Category dropdown
-* Multimedia content
-* Interactive details section
-* Advanced CSS selectors
+The Budget Tracker was improved without adding new HTML structure or functionality. The focus of this week was entirely on creating a polished visual design using CSS.
