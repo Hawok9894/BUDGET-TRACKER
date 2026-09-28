@@ -1,105 +1,103 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
-    background-color: #f5f5f5;
-}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap');
 
-header {
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-header img {
-    display: block;
-    margin: 0 auto 10px;
-}
-
-h1 {
-    color: #333;
-}
-
-h2 {
-    color: #444;
-}
-
-/* Form */
-.add-expense-section {
-    background-color: white;
-    padding: 20px;
-    margin-bottom: 30px;
-    border-radius: 8px;
-}
-
-.add-expense-section label {
-    display: block;
-    margin-top: 10px;
-    font-weight: bold;
-}
-
-.add-expense-section input,
-.add-expense-section select {
-    width: 100%;
-    padding: 10px;
-    margin-top: 5px;
+* {
     box-sizing: border-box;
 }
 
-/* Advanced selector: focus */
-input:focus,
-select:focus {
-    outline: 2px solid #555;
+body {
+    margin: 0;
+    padding: 30px;
+    background-color: #f4f7f6;
+    color: #263238;
+    font-family: 'Poppins', sans-serif;
 }
 
-/* Button */
+h1 {
+    font-family: 'Playfair Display', serif;
+    color: #176b5b;
+    text-align: center;
+    margin: 0;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    color: #176b5b;
+    margin-top: 0;
+}
+
+header,
+.form-section,
+.table-section {
+    background-color: white;
+    border: 1px solid #dce8e4;
+    border-radius: 12px;
+    padding: 25px;
+    margin: 0 auto 25px;
+    max-width: 900px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+.form-section label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+
+.form-section input,
+.form-section select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 18px;
+    border: 1px solid #b8cbc6;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+.form-section input:focus,
+.form-section select:focus {
+    outline: none;
+    border-color: #176b5b;
+}
+
 button {
-    margin-top: 15px;
-    padding: 10px 20px;
+    background-color: #176b5b;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 22px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
     cursor: pointer;
 }
 
-/* Table */
-.expenses-section {
-    background-color: white;
-    padding: 20px;
-    margin-bottom: 30px;
+button:hover {
+    background-color: #0f4f43;
 }
 
-.expenses-section table {
+table {
     width: 100%;
     border-collapse: collapse;
+    margin-top: 15px;
 }
 
-.expenses-section th,
-.expenses-section td {
-    border: 1px solid #999;
-    padding: 10px;
-    text-align: left;
-}
-
-/* Colored header */
-.expenses-section th {
-    background-color: #333;
+th {
+    background-color: #176b5b;
     color: white;
+    padding: 14px;
+    text-align: left;
+    border: 1px solid #125447;
 }
 
-/* Alternating rows */
-.expenses-section tr:nth-child(even) {
-    background-color: #eeeeee;
+td {
+    padding: 13px;
+    border: 1px solid #dce8e4;
 }
 
-/* Hover */
-.expenses-section tbody tr:hover {
-    background-color: #d9f0ff;
+tr:nth-child(even) {
+    background-color: #eef6f3;
 }
 
-/* Details */
-details {
+tr:nth-child(odd) {
     background-color: white;
-    padding: 15px;
-    margin-top: 20px;
-}
-
-summary {
-    cursor: pointer;
-    font-weight: bold;
 }
